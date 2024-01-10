@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Diwali decuration </title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            background: url(https://a-static.besthdwallpaper.com/new-year-fireworks-wallpaper-1920x1080-10549_48.jpg);
+            width: 100%;
+            height: 490px;
+
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .sri-shyam{
+            text-align: center;
+            font: 900px;
+            color: white; 
+        }
+        .button{
+            background-color: rgb(173, 18, 18);
+            border-radius: 10px;
+            font: 20px;
+            color: white;
+            text-decoration: none;
+            width: 350px;
+            height: 17px;
+            padding: 7px 40px;
+            margin: auto;
+        }
+        .first-row{
+            background-image: url(https://c0.wallpaperflare.com/preview/706/562/538/india-new-delhi-crackers-amazing.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-around;
+            height: 600px;
+            padding-top: 30px;
+        }
+        h1{
+            color: red;
+            
+            text-align: center;
+            font-size: 44px;
+            font-family: cursive;
+            font-weight: 720px;
+            text-transform:uppercase;
+            margin: 30px 0px 5px;
+            padding-top: 50px;
+        }
+        p{
+            font-family: cursive;
+            color:white;
+            font-size: 20px;
+            margin: 0px 0px 5px;
+            padding-top: 45px;
+            text-align: center;
+            letter-spacing: 3px;
+
+        }
+        .shop-now{
+            font-size: 20px;
+        background-color: #ffc107;
+        border-radius: 10px;
+        padding: 10px 40px;
+        padding-top: 14px;
+        width: 200px;
+        margin: auto;
+        justify-content: center;
+        text-decoration: none;
+        display: flex;
+        color:black;
+        border: 0.5px solid black ;
+        }
+        .second-row{
+            background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*Jx6l35td4Chp_tX2Ce0IZg.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-around;
+            height: 630px;
+            padding-top: 20px;
+           
+        }
+    .third-row{
+        background-image: url(https://businessnewsthisweek.com/wp-content/uploads/2020/11/Diwali.jpg);
+        background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-around;
+            height: 630px;
+            padding-top: 20px;
+    }
+    .forth-row{
+        background-image: url(https://im.indiatimes.in/content/2022/Sep/anirudh-ib3d1uX1LLc-unsplash_6324ca2f6ac96.jpeg);
+        background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-around;
+            height: 650px;
+            padding-top: 20px;
+    }
+    .fifth-row{
+        background-image: url(https://images.news18.com/ibnlive/uploads/2022/10/diwali-6-16666900343x2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        height: 650px;
+        padding-top: 20px;
+    }
+    .six-row{
+           background-image: url(https://images.unsplash.com/photo-1543718290-a207a786243a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+           background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-around;
+            height: 650px;
+            padding-top: 20px;
+    }
+    .main-div{
+        background-image: url(https://images.unsplash.com/photo-1617957718614-8c23f060c2d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9yYW5nZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .manu-row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.manu-row2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+    
+    #image-set{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .video{
+        margin: 0px 8px;
+        padding: 50px 150px;
+        text-align: center;
+    }
+    .footer-part{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwcHCAcHBwcHBgoGBwcHBw8ICQcWIBEiFhURHx8YKCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRktLTctNys3LSstKy0rKysrKysrKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQQDBgL/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAbAQEBAQEBAQEBAAAAAAAAAAAAAQIEBQMGB//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A9wA/leP0JFRWk0IEaxFAaxFEitYgqDWIoDWIKg1iKqDQoDSaoitIoitZrIqDVFVBrNRQGs1FEVvNQVBrNRRFWkYwH53HeKitJoAuIoDSCoNYigNCiK1iADSKIq5qCoNCgNYiiK1UUQazUVUGs1FEVqooirmoKg1moog1RlAeA7hUI0igLiEVFaABUURWsQAaRQFzUAGhRFazUFQUUBqpFEVqoKguaigNVFEGqKqC1FEFqMwDxHaANCgDIqDQoCoKg1iKA0CoKigLUAGhRBc1FAaFEVagqDVRRFWiiDVRQFqKILRnAeO6wBRRIqpoAqEVFaABUFQVFAaABUURVoAKgqC0URWqgqC0URWqgqC1FEVaAC1I4APJdQA1gKiqgAqACiiKqACgqC1FAUAFFEFqKA1UAFBUFooirUFQWiiC1FBFpHIB5joAGsABRQBkAUAFFEVUAFAAFEGqigKAAiiC0URVoALUAFoogtRRAo5gOB9wBQAUFQUUAZAFABQVAFEVUAFAAoogtRRBaKAtABaiiBRRBaKIpRzAcb6gCgAAA0CoAoiiQAEAFAAoKgtFEFFEUQAKAC0AFpFECoogtFEUo+AHM+gAAAoAAALQAAAUUQEiiARQAACoALQAKAC0FQKKIFFEFqKIFEAfFsAAAAAUAAAAAAACgAtAAoAFAAoGgVFEAiiBSKILSKIFIogUgAwoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    padding-top: 20px;
+    }
+    
+    h3{
+   font-size: 25px;
+   padding-bottom: 50px;
+   }
+.footer-concept h3{
+   font-size: 25px;
+   padding-right: 50px;
+   padding: 10px;
+}
+.footer-concept1 h3{
+     
+     padding-right: 100px;
+     word-spacing: 10px;
+     margin: 1px;
+     padding: 10px;
+ }
+   
+    li a{
+        font-size: 25px;
+        font-weight: 500;
+        color: black;
+        letter-spacing: 0px;
+        
+    }
+    li{
+        list-style-type: none;
+    }
+
+    
+    
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sri-shyam">
+            <h1> SRI SHYAM</h1> 
+            <p>Door Delivery: Tamilnadu | Pondicherry | Karnataka | Andhra Pradesh<br>
+                Transport Delivery: Tamilnadu | Mumbai | Pune <br>
+                Some representative placeholder content for the first slide.</p>
+                <a href="#" class="button">Minimum order: Rs.3000/-</a>
+    </div>
+    </div>
+    <div class="first-row">
+        <div class="section-1">
+            <h1>SPARKLERS</h1>
+            <p>Create marvelous and everlasting <br>memories with sparklers, perfect <br>for all occasions Diwali, <br>Christmas, New year, Weddings,<br> Birthday Parties, and all special <br>events.</p>
+            <a href="#" class="shop-now"><b>Shop Now </b></a>
+        </div>
+        <div class="section-2">
+            <img src="http://bookmycrackers.co.in/img/bheem.webp">
+
+        </div>
+    </div>
+    <div class="second-row">
+        <div>
+            <img src="http://bookmycrackers.co.in/img/Tom.webp">
+        </div>
+        <div class="second-row2">
+        <h1>CHAKKRAS</h1>
+        <p>These beautiful spinning chakkras spray <br>golden sparkles all around, which added more ,<br>glory to your celebration. Chakkras of<br> various sizes and colors are available at <br>bigfestival.in at an affordable price.
+        </p>
+        <a href="#" class="shop-now"><b>Shop Now</b></a>
+    </div>
+</div>
+<div class="third-row">
+    <div>
+        <img src="http://bookmycrackers.co.in/img/Bomb.webp">
+    </div>
+    <div class="third-row2">
+        <h1>ATOM BOMBS</h1>
+        <p>Light and sound are the most ,<br>important symbol of celebration. <br>Atom bomb crackers are most <br>commonly used to gain the ,<br>attention of the crowd in justa a <br>few seconds with ultimate sound.</p>
+        <a href="#" class="shop-now "><b>Shop Now</b></a>
+    </div>
+</div>
+<div class="forth-row">
+    <div class="forth-row2">
+        <h1>ROCKETS</h1>
+        <p>If your love colors along with <br>sound, then rockets are the<br> right choice for you. These <br>types of crackers emit colorful <br>sparks inthe sky with <br>astonishing sounds. Rocket<br> crackers are a quite pleasant <br>surprise you’re your eyes and<br> ears.</p>
+        <a href="#" class="shop-now"><b>Shop Now</b></a>
+    </div>
+    <div>
+        <img src="http://bookmycrackers.co.in/img/Spiderman.webp">
+    </div>
+</div>
+    <div class="fifth-row">
+        <div>
+            <img src="http://bookmycrackers.co.in/img/B.webp">
+        </div>
+        <div class="fifth-row2">
+            <h1>FLOWER POTS</h1>
+            <p>Whatever may be the reason for<br> celebrations, flower pots are an <br>important part of every <br>celebration. The celebration <br>could not be complete without<br> colorful flower pot crackers. <br>These crackers are suitable for<br> all types of people, as it does <br>not produce sound</p>
+            <a href="#" class="shop-now"><b>Shop Now</b></a>
+        </div>
+
+    </div>
+
+        <div class="six-row">
+            <div class="six-row2">
+                <h1>FANCY ITEMS</h1>
+                <p>Make your celebration a little<br> more spicy and special with <br>a wide range of fancy crackers<br> from your trusted bigfestival.in.<br> All these fancy crackers are <br>extremely colorful and unique in<br> all aspects. Select the best <br>quality crackers which perfectly<br> suit the occasion.</p>
+                <a href="#" class="shop-now"><b>Shop Now</b></a>
+            </div>
+            <div>
+                <img src="http://bookmycrackers.co.in/img/Timon.webp">
+            </div>
+        </div>
+
+            <div class="main-div">
+                <div class="manu-row">
+                 <div>  
+                    <img src="http://bookmycrackers.co.in/img/No_1-Brand.webp">
+                    <h2>Trusted Brands</h2>
+                    <p>Ultimate Fresh Stock & Good <br>Quality, Well packed.</p>
+                </div>
+        
+                    <div>
+                        <img src="http://bookmycrackers.co.in/img/Delivery.webp">
+                        <h2>Delivery</h2>
+                        <p>Delivery at your convenient<br> Day.</p>
+                    </div>
+                    <div>
+                        <img src="http://bookmycrackers.co.in/img/Delivery.webp">
+                        <h2>Safe Payment</h2>
+                        <p>Pay with the world's most<br> popular and secure payment<br> methods.</p>
+                    </div>
+            </div>
+           <!-- <div class="row-item"> -->
+        <div class="manu-row2">
+        <div>
+            <img src="http://bookmycrackers.co.in/img/trusted.webp">
+            <h2>Shop with Confidence</h2>
+            <p>Our Buyer Protection covers <br>your purchase from click to <br>delivery.</p>
+        </div>
+
+            <div>
+                <img src="http://bookmycrackers.co.in/img/24-x-7-help-center.webp">
+                <h2>24/7 Help Center</h2>
+                <p>Round-the-clock assistance<br> for a smooth shopping<br> experience.</p>
+            </div>
+            <div>
+                <img src="http://bookmycrackers.co.in/img/SHOP-ON-THE-GO.webp">
+                <h2>Shop - on - the - Go</h2>
+                <p>We Deliver what we promise</p>
+            </div>
+            </div>
+            </div>
+
+      <div class="image-set">
+        <img src="https://media.istockphoto.com/id/1153383527/photo/couple-holding-a-sparklers-on-the-beach.jpg?s=612x612&w=0&k=20&c=yO5kS9xEPA0ZIhGLbkLVWtDbpLXKkHas1PBrdpJpiM8=" width="100%" height="600px">
+      </div>
+    <div class="video">
+        <iframe width="450" height="300px" src="https://www.youtube.com/embed/elStulCp4ck?si=GNCzHjyQdKmKRJU9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="450" height="300px" src="https://www.youtube.com/embed/I6ylfgflRSQ?si=3OtXII_LkCbMtAal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=pHwwChA1xMa_jCrf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    </div>
+
+
+    <div>
+        <h1>THE CELEBRITY CUSTOMERS</h1>
+    </div>
+    <!-- footer start here -->
+ <div class="footer-part">
+
+        <div class="footer-concept">
+               <div>
+                    <img src="http://bookmycrackers.co.in/img/shym-crackers-logo.png" width="150px" height="150px">
+               </div>
+                <h3>Make celebrations more <br>memorable with superior quality<br> of <a>bigfestival.in.</a></h3><br>
+                <h3>Lighten up millions of faces<br> through our professional <br>services and quality crackers <br>products in the fireworks <br>industry.</h3>
+            </div>
+            
+            <div class="footer-concept1">
+                <h3>OUR POLICIES</h3><br>
+                <ul>
+                    <li><a href="#"> Privacy Policy </a> </li><br>
+                    <li><a href="#"> Terms & Condition </a></li><br>
+                    <li><a href="#"> Payments & Shipping Policy </a></li><br>
+                    <li><a href="#"> Return & Refund Policy</a> </li><br>   
+                    <li><a href="#"> Safety Tips </a> </li>
+                    </ul>
+            </div>
+            <div class="footer-concept1">
+            <h3>ADDRESS</h3>
+            <h3>9/61 D1, ESI West Side, Anaiyur <br>Village, Sivakasi - 626124</h3>
+
+            </div>
+        </div>
+    
+   
+</body>
+</html>
